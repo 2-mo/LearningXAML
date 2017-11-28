@@ -25,6 +25,5 @@
             </SplitView.Content>
         </SplitView>
         <Button Content="Click Me" Click="Button_Click" />
-
     </StackPanel>
 </Page>
