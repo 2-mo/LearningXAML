@@ -22,7 +22,7 @@
         </Grid.ColumnDefinitions>
 
         <!--Title 1-->
-        <TextBlock  Text="Title 1" FontSize="36" />
+        <TextBlock  Text="Title 1" FontSize="24" Margin="10"/>
 
         <StackPanel Grid.Column="1" Grid.Row="1">
             <TextBlock TextWrapping="Wrap">
@@ -36,7 +36,7 @@
         </StackPanel>
         
         <!--Title 2-->
-        <TextBlock  Text="Title 2" FontSize="36" Grid.Row="2" />
+        <TextBlock  Text="Title 2" FontSize="24" Grid.Row="2" Margin="10"/>
 
         <StackPanel Grid.Column="1" Grid.Row="3">
             <TextBlock TextWrapping="Wrap">
@@ -50,7 +50,7 @@
         </StackPanel>
 
         <!--Title 3-->
-        <TextBlock  Text="Title 3" FontSize="36" Grid.Row="4" />
+        <TextBlock  Text="Title 3" FontSize="24" Grid.Row="4" Margin="10"/>
 
         <StackPanel Grid.Column="1" Grid.Row="5">
             <TextBlock TextWrapping="Wrap">
@@ -62,7 +62,5 @@
                 <Rectangle Height="30" Width="100" Fill="Yellow" />
             </StackPanel>
         </StackPanel>
-
-
     </Grid>
 </Page>
